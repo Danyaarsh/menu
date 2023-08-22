@@ -1,0 +1,52 @@
+.menu {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+    padding: 0;
+  }
+  
+  .menu-item {
+    background-color: blue;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .menu-item a {
+    text-decoration: none;
+    color: white;
+  }
+  .menu li{
+    position: relative;
+  }
+  .menu ul {
+    width: 180px;
+    display: none;
+    position: absolute;
+    background-color: #792525;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    top: 100%;
+    left: 0;
+  }
+
+  .menu ul ul{
+    left: 100%;
+    top: 0;
+  }
+
+  .menu li:hover >ul{
+    display: block;
+  }
+
+  .L{
+    background-color: blue;
+  }
+
+.B{background-color: blue;
+}
+
+.C{
+    background-color: blue;
+}
